@@ -1,0 +1,67 @@
+.galeria {
+    min-height: 100vh;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+
+    h1 {
+        text-align: center;
+        margin: 100px;
+        font-family: 'Russo One', sans-serif;
+
+        font-size: 4rem;
+        font-weight: bolder;
+        color: rgb(3, 0, 0);
+    }
+
+
+    .contenedor-imagenes {
+        margin: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: -1rem -1rem;
+        transition: 2s;
+
+
+
+
+        .imagen {
+            flex: 1 0 24rem;
+            margin: 0.5rem;
+
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 4px;
+                box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                transition:transform 2s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+
+
+
+
+
+
+            }
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,17 @@
+// reseteo general del documento
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    background-color: $color-fondo-cuerpo ;
+}
+
+html {
+    height: 100%;
+}

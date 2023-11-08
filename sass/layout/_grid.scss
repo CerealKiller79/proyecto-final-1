@@ -1,0 +1,22 @@
+// grid estructural de la pagina
+
+
+.grid-conteiner {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.pie {
+    grid-area: footer;
+}

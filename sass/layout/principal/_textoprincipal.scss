@@ -1,0 +1,48 @@
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+
+    .titulo {
+        display: flex;
+
+        h2 {
+
+            text-align: center;
+            font-family: 'Russo One', sans-serif;
+            font-size: 2.5rem;
+        }
+
+    }
+
+
+    .contenedor-parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+            width: 50rem;
+            display: flex;
+            text-align: justify;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            font-family: karla;
+            font-weight: bold;
+            font-size: 1.2rem;
+
+        }
+
+    }
+
+
+
+
+
+
+}

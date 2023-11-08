@@ -1,0 +1,49 @@
+$border-radius: 10px;
+$margin-bottom: 20px;
+$margin-top-cards: 20px;
+$margin-top-container: 200px;
+
+
+
+    .caja-videos {
+
+        margin-bottom: 150px;
+
+        .container {
+           
+            height: auto;
+            margin-bottom: 50PX;
+            margin-top: $margin-top-container;
+
+            .my-4 {
+                
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            .card {
+                border: none;
+                margin-bottom: $margin-bottom;
+                border-radius: $border-radius;
+
+                &-title {
+                    text-align: center;
+                    margin: 0;
+                }
+
+                &-img-top {
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: $border-radius $border-radius 0 0;
+                }
+            }
+
+
+
+
+
+
+
+
+        }
+    }

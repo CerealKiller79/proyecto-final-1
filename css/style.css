@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  background-color: #f4f4f4;
+}
+
+html {
+  height: 100%;
+}
+
+.grid-conteiner {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.pie {
+  grid-area: footer;
+}
+
+.galeria {
+  min-height: 100vh;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+.galeria h1 {
+  text-align: center;
+  margin: 100px;
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: rgb(3, 0, 0);
+}
+.galeria .contenedor-imagenes {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  transition: 2s;
+}
+.galeria .contenedor-imagenes .imagen {
+  flex: 1 0 24rem;
+  margin: 0.5rem;
+}
+.galeria .contenedor-imagenes .imagen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  transition: transform 2s;
+}
+.galeria .contenedor-imagenes .imagen img:hover {
+  transform: scale(1.1);
+}
+
+.contenedor-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+.contenedor-texto .titulo {
+  display: flex;
+}
+.contenedor-texto .titulo h2 {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  font-size: 2.5rem;
+}
+.contenedor-texto .contenedor-parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor-texto .contenedor-parrafo p {
+  width: 50rem;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: karla;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contenedor-titulo-galeria {
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-titulo-galeria .contenedor-parrafo-galeria {
+  max-width: 1300px;
+  display: flex;
+  margin: 2rem;
+  border: #1c1c1c solid 1px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
+  background-color: #18151e;
+}
+.contenedor-titulo-galeria .contenedor-parrafo-galeria p {
+  text-align: justify;
+  font-family: "Russo One", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.contenedor-carrousel {
+  padding: 1px;
+}
+.contenedor-carrousel .carrousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.contenedor-carrousel .carousel-inner img {
+  width: auto;
+  max-height: 900px;
+  max-width: 1000px;
+}
+
+@media (max-width: 450px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .header .logo img {
+    display: none;
+  }
+  .header .navegable ul {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .header .navegable ul li {
+    font-size: 14px;
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo-principal h1 {
+    margin: 70px;
+    font-size: 90%;
+  }
+  .contenedor-imagenes {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contenedor-imagenes .imgagen {
+    margin: 0rem 0rem 0rem 0.8rem;
+    flex: 1 0 10rem;
+    width: 230px;
+    height: 200px;
+  }
+  .contenedor-imagenes .imgagen img {
+    flex: 1 0 10rem;
+    width: 12rem;
+    height: 8rem;
+  }
+  .contenedor-titulo-galeria h3 {
+    font-size: 18px;
+  }
+  .contenedor-parrafo-galeria {
+    max-width: 400px;
+    max-height: 500px;
+  }
+  .contenedor-parrafo-galeria p {
+    font-size: 9px;
+  }
+  .pie {
+    width: 100%;
+    height: 80%;
+  }
+  .pie p {
+    font-size: 30%;
+  }
+  .pie img {
+    width: 12px;
+    height: 12px;
+  }
+  .main2 {
+    width: auto;
+  }
+  .parrafo3 {
+    width: 150px;
+  }
+  .parrafo3 p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 25px;
+  }
+}
+.boton1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.boton1 .boton-inicio, .boton1 .boton2 {
+  margin: 4px;
+  background-color: black;
+  padding: 10px;
+  width: 90px;
+  border-radius: 6px;
+}
+.boton1 .boton-inicio a, .boton1 .boton2 a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+}
+.main2 {
+  background-image: url(../images/principal/muelle.jpeg);
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.main2 .parrafo3 {
+  width: 600px;
+  text-align: justify;
+  font-family: "Russo One", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.caja-videos {
+  margin-bottom: 150px;
+}
+.caja-videos .container {
+  height: auto;
+  margin-bottom: 50PX;
+  margin-top: 200px;
+}
+.caja-videos .container .my-4 {
+  font-size: 2rem;
+  text-align: center;
+}
+.caja-videos .container .card {
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.caja-videos .container .card-title {
+  text-align: center;
+  margin: 0;
+}
+.caja-videos .container .card-img-top {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.comments-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.comments-section .contenedor-formulario {
+  width: 50%;
+}
+.comments-section .contenedor-formulario form {
+  margin-bottom: 20px;
+}
+.comments-section .contenedor-formulario form label {
+  display: block;
+  margin-top: 10px;
+}
+.comments-section .contenedor-formulario form input,
+.comments-section .contenedor-formulario form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.comments-section .contenedor-formulario form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.comments-section .contenedor-formulario form button:hover {
+  background-color: #555;
+}
+.comments-section .contenedor-formulario #comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+  /* Margen superior de 100px */
+  height: 100px;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: 0;
+}
+footer .social-icon {
+  display: inline-block;
+  margin: 0 10px;
+}
+footer .social-icon img {
+  max-width: 30px;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

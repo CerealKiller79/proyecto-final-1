@@ -1,0 +1,44 @@
+//estilo del footer
+
+
+.pie {
+
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 11%, rgba(73, 72, 71, 1) 37%, rgba(124, 128, 129, 1) 70%);
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    padding: 0;
+    height: 4rem;
+
+    .derechos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+
+        p {
+            font-size: 0.7rem;
+        }
+
+    }
+
+    .insta {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+
+        }
+
+    }
+
+
+
+}

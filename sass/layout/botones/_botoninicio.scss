@@ -1,0 +1,28 @@
+// estilo de botones
+.boton1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .boton-inicio {
+        margin: 4px;
+        background-color: black;
+        padding: 10px;
+        width: 90px;
+        border-radius: 6px;
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            color: aliceblue;
+        }
+
+    }
+
+    .boton2 {
+        @extend .boton-inicio;
+
+    }
+
+}

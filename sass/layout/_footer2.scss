@@ -1,0 +1,28 @@
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    /* Margen superior de 100px */
+    height: 100px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .social-icon {
+        display: inline-block;
+        margin: 0 10px;
+
+        img {
+            max-width: 30px;
+            height: auto;
+        }
+    }
+}

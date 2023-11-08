@@ -1,0 +1,65 @@
+//estilo del header
+
+header {
+    display: flex;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 11%, rgba(73, 72, 71, 1) 37%, rgba(124, 128, 129, 1) 70%);
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    padding: 1rem;
+    height: 150px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        img {
+
+            width: 10rem;
+            height: 7rem;
+        }
+
+    }
+
+    .navegable ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-size: 1rem;
+            display: flex;
+            margin: 0.4rem;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+            :hover {
+                color: black;
+                transition: 0.6s;
+            }
+
+
+        }
+
+        a {
+            align-items: center;
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,27 @@
+// estilo de la pagina de galeria de imagenes, parte del carrousel
+
+.contenedor-carrousel {
+
+    padding: 1px;
+
+
+    .carrousel {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .carousel-inner img {
+        width: auto;
+        max-height: 900px;
+        max-width: 1000px;
+    }
+
+
+
+
+
+
+
+
+}

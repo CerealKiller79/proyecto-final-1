@@ -117,29 +117,13 @@ html {
 }
 
 @media (max-width: 450px) {
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  .header .logo img {
-    display: none;
-  }
-  .header .navegable ul {
-    flex-direction: row;
-    width: 100%;
-    margin-top: 1px;
-  }
-  .header .navegable ul li {
-    font-size: 14px;
-  }
   .galeria {
     display: flex;
     flex-direction: column;
   }
   .titulo-principal h1 {
     margin: 70px;
-    font-size: 90%;
+    font-size: 100%;
   }
   .contenedor-imagenes {
     margin: 0.5rem;

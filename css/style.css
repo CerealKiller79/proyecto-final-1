@@ -103,43 +103,17 @@ html {
   font-size: 1.2rem;
 }
 
-.contenedor-titulo-galeria {
+.carrousel-container {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
-.contenedor-titulo-galeria .contenedor-parrafo-galeria {
-  max-width: 1300px;
-  display: flex;
-  margin: 2rem;
-  border: #1c1c1c solid 1px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
-  background-color: #18151e;
-}
-.contenedor-titulo-galeria .contenedor-parrafo-galeria p {
-  text-align: justify;
-  font-family: "Russo One", sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-.contenedor-carrousel {
-  padding: 1px;
-}
-.contenedor-carrousel .carrousel {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.contenedor-carrousel .carousel-inner img {
-  width: auto;
-  max-height: 900px;
-  max-width: 1000px;
+.carrousel-container h5 {
+  margin: 50px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
 }
 
 @media (max-width: 450px) {

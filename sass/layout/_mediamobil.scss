@@ -4,28 +4,28 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-       
+
 
         .logo {
-            
+
 
 
             img {
                 display: none;
-                
+
 
             }
         }
 
         .navegable {
             ul {
-               
+
                 flex-direction: row;
                 width: 100%;
                 margin-top: 1px;
 
                 li {
-                    
+
 
                     font-size: 14px;
                 }
@@ -52,7 +52,7 @@
         h1 {
             margin: 70px;
             font-size: 90%;
-           
+
         }
     }
 

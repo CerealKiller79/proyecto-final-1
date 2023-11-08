@@ -7,43 +7,76 @@
     <title>Sobre Mi</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
     <header class="header">
-
-        <div class="logo">
-            <img src="../images/Diego Alfonso.png" alt="logo firma">
-        </div>
-
-        <nav class="navegable">
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="galeria.html">Galeria</a>
-
-                </li>
-
-                <li>
-                    <a href="tutoriales.html">Videos</a>
-
-                <li>
-                    <a href="sobremi.html">Diego</a>
-                </li>
-                <li>
-                    <a href="comentarios.html">Feedback</a>
-                </li>
-            </ul>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="camera1" src="../images/Diego Alfonso.png" alt="logo firma">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria2.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobremi.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutoriales.html">Videos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
 
+
+
+    <div class="card-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="../images/principal/camera1.jpg" class="card-img-top" alt="Imagen 1">
+                    <div class="card-body">
+                        <p class="card-text">Un fotógrafo especializado en la captura de imágenes en blanco y negro es
+                            un artista con una
+                            sensibilidad
+                            única para la luz, la sombra y los contrastes. Este tipo de fotógrafo generalmente tiene una
+                            comprensión
+                            profunda de la estética atemporal y la emotividad que puede lograrse a través de la
+                            simplicidad y la
+                            ausencia de color...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <img src="../images/principal/camera3.jpg" class="card-img-top" alt="Imagen 2">
+                    <div class="card-body">
+                        <p class="card-text">Utiliza cámaras analógicas, desde las clásicas
+                            cámaras de 35 mm hasta cámaras de medio formato y gran formato, lo que le permite
+                            experimentar con diversas técnicas y estilos. Cada clic del obturador representa una
+                            inversión de tiempo y esfuerzo, ya que [Nombre del fotógrafo] debe ser cauteloso al elegir
+                            el momento adecuado y la configuración correcta antes de capturar una imagen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--parrafo principal-->
 
-    <main class="main2">
+    <!--main class="main2">
 
         <div class="parrafo3">
             <p data-aos="zoom-out">
@@ -51,10 +84,10 @@
                 sensibilidad
                 única para la luz, la sombra y los contrastes. Este tipo de fotógrafo generalmente tiene una comprensión
                 profunda de la estética atemporal y la emotividad que puede lograrse a través de la simplicidad y la
-                ausencia de color...
+                ausencia de color.
             </p>
         </div>
-
+-->
 
     </main>
 
@@ -89,20 +122,16 @@
 
     <!--footer-->
 
-    <footer class="pie">
 
-        <div class="derechos">
-            <p>
-                © 2023 todos los derechos reservados
-            </p>
-        </div>
-        <div class="insta">
-            <a href="https://www.instagram.com" target="_blank"><img src="../images/principal/instagram.png"
-                    alt="instagram"></a>
+    <footer>
+        <div class="container">
+
+            <a href="https://www.facebook.com " target="_blank" class="social-icon"><img
+                    src="../images/principal/face2.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><img
+                    src="../images/principal/instagram.png" alt="Instagram"></a>
 
         </div>
-
-
     </footer>
 
 
@@ -110,6 +139,9 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </body>

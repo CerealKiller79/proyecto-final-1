@@ -126,11 +126,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
     width: 350px;
   }
   .main .presentacion-cards h1 {
     text-align: center;
-    font-size: 10px;
+    font-size: 25px;
   }
   .main .presentacion-cards .card1 {
     width: 300px;
@@ -326,6 +327,7 @@ footer .social-icon img {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  margin: 30px;
 }
 .presentacion-cards .card1 {
   width: 800px;

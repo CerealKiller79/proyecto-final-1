@@ -1,13 +1,14 @@
 //pagina Sobre Mi
 .card-container {
-    margin: 50px;
-.card {
+  margin: 50px;
+
+  .card {
     .card-text {
       text-align: justify;
-      font-weight: bold;
+      padding: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     }
   }
 
 }
-
-

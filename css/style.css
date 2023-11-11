@@ -246,6 +246,12 @@ html {
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.card-container .card img {
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
 
 .caja-videos {
   margin-bottom: 150px;

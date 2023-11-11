@@ -33,7 +33,7 @@ html {
 .galeria {
   min-height: 100vh;
   max-width: 100rem;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 0 2rem 2rem;
 }
 .galeria h1 {
@@ -48,7 +48,7 @@ html {
   margin: 0.5rem;
   display: flex;
   flex-wrap: wrap;
-  margin: -1rem -1rem;
+  margin: 40px;
   transition: 2s;
 }
 .galeria .contenedor-imagenes .imagen {
@@ -58,7 +58,7 @@ html {
 .galeria .contenedor-imagenes .imagen img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;
@@ -121,53 +121,68 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 20px;
+    width: auto;
   }
   .main .presentacion-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    width: 350px;
+    width: 300px;
+    margin: 0 0 30px 0;
+    padding: 0;
   }
   .main .presentacion-cards h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 6px;
   }
   .main .presentacion-cards .card1 {
-    width: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
   }
   .main .presentacion-cards .card1 img {
-    width: 300px;
+    width: 220px;
+    display: block;
   }
   .main .presentacion-cards .card1 p {
+    font-size: 6px;
     text-align: center;
-    font-size: 12px;
   }
   .main .galeria {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
-  .main .titulo-principal h1 {
-    margin: 70px;
-    font-size: 100%;
+  .main .galeria .titulo-principal h1 {
+    margin: 40px;
+    font-size: 40px;
   }
-  .contenedor-imagenes {
-    margin: 0.5rem;
+  .main .galeria .contenedor-imagenes {
+    margin: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
   }
-  .contenedor-imagenes .imgagen {
-    margin: 0rem 0rem 0rem 0.8rem;
-    flex: 1 0 10rem;
-    width: 230px;
-    height: 200px;
+  .main .galeria .contenedor-imagenes .imgagen {
+    margin: 0rem 0rem 0rem 0rem;
+    flex: 1 0 24rem;
+    width: 100%;
+    height: 100%;
   }
-  .contenedor-imagenes .imgagen img {
+  .main .galeria .contenedor-imagenes .imgagen img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
     flex: 1 0 10rem;
-    width: 12rem;
-    height: 8rem;
   }
   .contenedor-titulo-galeria h3 {
     font-size: 18px;
@@ -327,7 +342,7 @@ footer .social-icon img {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  margin: 30px;
+  margin-bottom: 40px;
 }
 .presentacion-cards .card1 {
   width: 800px;
@@ -336,6 +351,7 @@ footer .social-icon img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   transition: box-shadow 0.3s;
+  padding: 10px;
 }
 .presentacion-cards .card1:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);

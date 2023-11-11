@@ -1,7 +1,7 @@
 .galeria {
     min-height: 100vh;
     max-width: 100rem;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 0 2rem 2rem;
 
     h1 {
@@ -19,7 +19,7 @@
         margin: 0.5rem;
         display: flex;
         flex-wrap: wrap;
-        margin: -1rem -1rem;
+       margin: 40px;
         transition: 2s;
 
 
@@ -33,7 +33,7 @@
             img {
                 display: block;
                 width: 100%;
-                height: 100%;
+                height: 90%;
                 object-fit: cover;
                 border-radius: 4px;
                 box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem grey;

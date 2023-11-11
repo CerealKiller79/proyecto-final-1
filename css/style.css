@@ -145,11 +145,14 @@ html {
     padding: 0;
   }
   .main .presentacion-cards .card1 img {
-    width: 220px;
+    width: 240px;
     display: block;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
   }
   .main .presentacion-cards .card1 p {
-    font-size: 6px;
+    font-size: 4px;
     text-align: center;
   }
   .main .galeria {
@@ -239,7 +242,7 @@ html {
   margin: 50px;
 }
 .card-container .card .card-text {
-  text-align: justify;
+  text-align: center;
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -370,7 +373,7 @@ footer .social-icon img {
   margin: 5px;
 }
 .presentacion-cards .card1 .card-text p {
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
   margin: 0;
 }

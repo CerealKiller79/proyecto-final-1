@@ -33,15 +33,21 @@
 
 
                 img {
-                    width: 220px;
+                    width: 240px;
                     display: block;
+                    height: auto;
+                    padding: 5px;
+                    border-radius: 10px;
 
                 }
 
                 p {
 
-                    font-size: 6px;
-                    text-align:center;
+                    font-size: 4px;
+                    text-align: center;
+                  
+                    
+                   
                 }
             }
         }

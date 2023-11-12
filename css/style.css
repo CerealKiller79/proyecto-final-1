@@ -219,14 +219,13 @@ html {
     font-size: 15px;
     padding: 25px;
   }
+  .row img {
+    width: auto;
+  }
+  .row .card-body p {
+    font-size: 12px;
+  }
 }
-.row img {
-  width: auto;
-}
-.row .card-body p {
-  font-size: 8px;
-}
-
 .boton1 {
   margin-top: 3rem;
   display: flex;
@@ -251,16 +250,8 @@ html {
 }
 .card-container .card .card-text {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.card-container .card .card-text p {
-  font-size: 8px;
-}
-.card-container .card img {
-  border-radius: 20px;
-  width: auto;
-  padding: 20px;
 }
 
 .caja-videos {

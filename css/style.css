@@ -219,9 +219,6 @@ html {
     font-size: 15px;
     padding: 25px;
   }
-  .row img {
-    width: auto;
-  }
   .row .card-body p {
     font-size: 12px;
   }
